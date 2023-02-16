@@ -1,0 +1,96 @@
+html, body{
+    background-image: url("../images/background1.jpg");
+    background-size:auto;
+    background-repeat: no-repeat;
+}
+
+  header, header p {
+    text-align: center;
+    
+  }
+  .box {
+    background-color: #ccc;
+    padding: 20px;
+    margin: 0;
+  }
+  .navBar{
+    background-color: whitesmoke;
+    color: black;
+    width: 100%;
+}
+.headerNav
+{
+    font-size: small;
+    font-weight: 600;
+    color: black;
+}
+  
+.trending-books {
+  width: 60%;
+  float: left;
+  margin-right: 100px;
+  color: aliceblue;
+  margin-right: 10px;
+}
+.signup-form {
+  width: 5000px;
+  height: 20px;
+  border: 1px solid black;
+  margin-top: 30px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+th {
+  background-color: gray;
+  color: white;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.signup {
+  width: fit-content;
+  background-color: whitesmoke;
+  border: 1px;
+  border-color: black;
+  border-radius: 10px;
+  padding: 10px;
+  margin:0;
+}
+fieldset {
+  border: none;
+  padding: 10px,30px;
+}
+legend {
+  font-size: medium;
+}
+label {
+  margin-top: 0;
+  display: block;
+}
+label[for="muggle"] {
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+input[type="email"], input[type="password"], button[type="submit"] {
+  display: block;
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 8px,10px;
+  box-sizing: border-box;
+}
+button[type="submit"] {
+  background-color: blue;
+  padding: 8px,10px;
+  color: white;
+  cursor: pointer;
+}
+

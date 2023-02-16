@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dine Booking</title>
+    <link rel="stylesheet" type="text/css" href="dine.css"> 
+</head>
+<body>
+	<h2 style="text-align: center;">Dine Booking</h2>
+    
+	<form>
+		<table>
+			<tr>
+				<th><label for="visitor-name">Visitor Name:</label></th>
+				<td><input type="text" id="visitor-name" name="visitor-name" maxlength="20"  required></td>
+			</tr>
+			<tr>
+				<th><label for="num-members">Number of members:</label></th>
+				<td><input type="number" id="num-members" name="num-members" max="50" required></td>
+			</tr>
+			<tr>
+				<th><label for="contact-no">Contact No:</label></th>
+				<td><input type="tel" id="contact-no" name="contact-no" required></td>
+			</tr>
+			<tr>
+				<th><label for="email">Email:</label></th>
+				<td><input type="email" id="email" name="email" required></td>
+			</tr>
+			<tr>
+				<th>Type of Food:</th>
+				<td>
+					<label><input type="checkbox" name="food-type" value="South Indian" > South Indian</label>
+					<label><input type="checkbox" name="food-type" value="North Indian"> North Indian</label>
+					<label><input type="checkbox" name="food-type" value="Chinese"> Chinese</label>
+					<label><input type="checkbox" name="food-type" value="Western"> Western</label>
+				</td>
+			</tr>
+			<tr>
+				<th>Room Status:</th>
+				<td>
+					<label><input type="radio" name="room-status" value="AC" checked required> AC</label>
+					<label><input type="radio" name="room-status" value="Non-AC"> Non-AC</label>
+				</td>
+			</tr>
+			<tr>
+				<th><label for="venue-preference">Venue Preference:</label></th>
+				<td>
+                    <select id="venue-preference" name="venue-preference" required>
+						<option value="" disabled selected>--SELECT--</option>
+						<option value="Arena">Arena</option>
+						<option value="Fiesta">Fiesta</option>
+						<option value="Vista">Vista</option>
+						<option value="Mythri">Mythri</option>
+						<option value="Magna">Magna</option>
+						<option value="Oasis">Oasis</option>
+						<option value="Amoeba">Amoeba</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" style="text-align: center;">
+					<input type="submit" value="Book">
+					<input type="reset" value="Reset">
+				</td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
+		
