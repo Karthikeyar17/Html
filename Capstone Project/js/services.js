@@ -15,21 +15,6 @@
   
     return x;
   }
-  
-  var timerId = setTimer();
-  
-  document.getElementById("logout").addEventListener("click", function() {
-    localStorage.removeItem("user");
-    clearInterval(timerId);
-    window.location.href = "./home.html";
-  });
-  
-  var user = JSON.parse(localStorage.getItem("user"));
-  if (user && user.name) {
-    document.getElementById("name").innerHTML = "Welcome, " + user.name + " |";
-  } else {
-    document.getElementById("name").style.display = "none";
-  }
 //otherservices page-js code
 function bookService() {
     localStorage.setItem('selectedService', 'Preventive maintenance service');
