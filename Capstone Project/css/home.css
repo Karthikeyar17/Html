@@ -1,0 +1,22 @@
+main{
+    margin-left: 50px;
+    margin-right: 60px;
+    margin-top: 27px;
+}
+
+td{
+    text-align:justify;
+    padding:10px;
+}
+
+footer{
+    text-align: center; 
+    background-color: cornflowerblue;
+    color:white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-size:14px;
+}
+

@@ -1,0 +1,52 @@
+{
+    "users":[
+        {
+        
+        "username": "alex",
+        "password": "alex@123",
+        "title": "Alex Joy",
+        "role":"user"
+       
+        },
+        {
+            "username": "admin",
+            "password": "admin@123",
+            "title": "Admin",
+            "role":"admin"
+
+        },
+        {
+            
+            "username": "johnson",
+            "password": "john123!",
+            "title ": "Johnson Antony",
+            "role":"user"
+
+        },
+        {
+            
+            "username": "chris",
+            "password": "chris1234",
+            "title": "Chris Jacob",
+            "role":"user"
+
+        },
+        {
+            
+            "username": "eliza",
+            "password": "eliza_123",
+            "title": "Eliza Fernandez",
+            "role":"user"
+
+        },
+        {
+            
+            "username": "mary",
+            "password": "mary@1234",
+            "title": "Mary S",
+            "role":"user"
+
+        }
+    
+    ]
+}
